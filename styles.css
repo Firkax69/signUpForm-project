@@ -69,7 +69,7 @@ body {
 /* Header styles */
 .header {
     padding: 0 12vw 0 3vw;
-    height: 35vh;
+    height: 30vh;
     background-color: rgba(255, 255, 255, 0.85);
 }
 
@@ -81,7 +81,7 @@ body {
 }
 
 .header-1 {
-    padding-top: 14vh;
+    padding-top: 5vh;
 }
 
 .header-3 {
@@ -90,12 +90,14 @@ body {
 }
 
 .main {
-    /* height: 30vh; */
+    height: 40vh;
     background-color: rgba(255, 255, 255, 0.95);
     display: flex;
-    flex-flow: column wrap;
-    gap: 20px;
-    padding: 2vw 3vw 2vw 3vw;
+    flex-flow: row wrap; 
+    gap: 20px; 
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    padding-left: 3vw;
     box-shadow: 2px 5px 5px  #344062;
 }
 
@@ -109,17 +111,33 @@ body {
     flex-direction: column;
     flex-wrap: wrap;
     width: 40%;
+    font-size: 0.9rem;
+}
+
+input {
+    padding: 5px;
+    border: 1px solid #000;
+    border-radius: 8px;
+
+}
+
+input:invalid {
+    border-color: red;
+}
+
+input:valid {   
+    border-color: var(--text-color);
 }
 
 /* Footer styles */
 .footer {
-    height: 35vh;
+    height: 30vh;
     padding: 3vw;
     background-color: rgba(255, 255, 255, 0.85);
 }
 
 button {
-    margin-bottom: 3vw;
+    margin-bottom: 2vw;
     background-color: #344062;
     padding: 17px 25px;
     border-radius: 10px;

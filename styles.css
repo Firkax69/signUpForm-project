@@ -116,18 +116,23 @@ body {
 
 input {
     padding: 5px;
-    border: 1px solid #000;
+    border: 1px solid  var(--text-color);
     border-radius: 8px;
 
 }
 
-input:invalid {
-    border-color: red;
+input:focus {
+    outline: none;
+    border: 2px solid #e6007e;
 }
 
-input:valid {   
+/* input:invalid {
+    border-color: red;
+} */
+
+/* input:valid {   
     border-color: var(--text-color);
-}
+} */
 
 /* Footer styles */
 .footer {

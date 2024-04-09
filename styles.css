@@ -189,7 +189,7 @@ a:hover {
 
 /* Smaller screens - resize*/
 
-@media only screen and (max-width:600px) {
+@media only screen and (max-width:730px) {
     body {
         flex-flow: column;
         height: auto;
@@ -198,7 +198,7 @@ a:hover {
 
     .logo {
         width: 100vw;
-        height: 50vh; /* need changing to less */
+        height: 60vh; /* need changing to less */
         display: flex;
         background-size: cover;
     }
@@ -211,5 +211,31 @@ a:hover {
         position: absolute;
         top: 0;
         padding: 10px 0;
+    }
+
+    .rh-side {
+        width: 100vw;
+    }
+
+    .main {
+        width: 100vw;
+    }
+
+    .header {
+        width: 100vw;
+        height: 30vh;
+        padding: 10px 30px;
+        margin: 0;
+    }
+
+    .footer {
+        width: 100vw;
+        height: 20vh;
+    }
+
+    button {
+        width: 40vw;
+        margin-bottom: 10vw;
+        margin-top: 5vw;
     }
 }

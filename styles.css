@@ -219,6 +219,9 @@ a:hover {
 
     .main {
         width: 100vw;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
     }
 
     .header {
@@ -237,5 +240,9 @@ a:hover {
         width: 40vw;
         margin-bottom: 10vw;
         margin-top: 5vw;
+    }
+
+    .main-h {
+        padding-top: 1rem;
     }
 }

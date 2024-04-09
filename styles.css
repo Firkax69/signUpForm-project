@@ -183,3 +183,33 @@ a:hover {
     font-size: 1.2rem;
 }
 
+
+
+
+
+/* Smaller screens - resize*/
+
+@media only screen and (max-width:600px) {
+    body {
+        flex-flow: column;
+        height: auto;
+        text-align: center;
+    }
+
+    .logo {
+        width: 100vw;
+        height: 50vh; /* need changing to less */
+        display: flex;
+        background-size: cover;
+    }
+
+    .logo-container {
+        top: 0vh;
+    }
+
+    .author-credit {
+        position: absolute;
+        top: 0;
+        padding: 10px 0;
+    }
+}

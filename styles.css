@@ -221,19 +221,20 @@ a:hover {
         width: 100vw;
         flex-flow: column;
         justify-content: center;
-        align-items: center;
+        height: auto;
+        padding-left: 15vw;
     }
 
     .header {
         width: 100vw;
-        height: 30vh;
+        height: 35vh;
         padding: 10px 30px;
         margin: 0;
     }
 
     .footer {
         width: 100vw;
-        height: 20vh;
+        height: auto;
     }
 
     button {
@@ -243,6 +244,15 @@ a:hover {
     }
 
     .main-h {
+        position: relative;
+        left: -7vw;
         padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    input {
+        width: 70vw;
+        margin: 0 auto;
+        height: 3.5vh;
     }
 }

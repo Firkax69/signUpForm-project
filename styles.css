@@ -126,6 +126,11 @@ input:focus {
     border: 2px solid #e6007e;
 }
 
+#passwordConfirm-error {
+    color: #e6007e;
+    padding-top: 0.2rem;
+}
+
 /* input:invalid {
     border-color: red;
 } */
